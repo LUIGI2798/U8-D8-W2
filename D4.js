@@ -92,6 +92,18 @@ console.log(check3and7(numero));
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let stringa1 = "EPICODE";
+function reverseString(stringa1) {
+  return stringa1.split("").reverse().join("");
+}
+console.log(reverseString(stringa1));
+
+/*
+let stringa1 = "EPICODE";
+function reverseString(stringa1) {
+  return stringa1;
+}
+reverseString("EPICODE");
 
 /* ESERCIZIO 8
  Scrivi una funzione di nome "upperFirst", che riceve come parametro una stringa formata da diverse parole.
